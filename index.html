@@ -1,8 +1,67 @@
+<!DOCTYPE html>
 <html>
-  <head>
-  </head>
-  
-  <body>
-    <h1>Welcome to my Portfolio!</h1>
-  </body>
+
+<head>
+	 <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+	<style>
+    	.bordered{
+        	border: 1px solid black;
+            height: 90vh;
+        }
+        
+        #logo {
+        	margin-bottom: 15px;
+        }
+        
+        ul > li{
+        	margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+     <div class="row">
+      <div class="hide-on-small-only bordered col m2">
+      	<ul class="center">
+          <li id="logo">
+            <a class="btn-floating btn-small pulse"><i class="material-icons">cloud</i></a>
+            </li>
+        	<li class="waves-light btn-small">
+            	<a class="black-text text-darken-3" href="/home">Home</a>
+            </li>
+            <li class="waves-light btn-small">
+            	<a class="black-text text-darken-3" href="/about">About</a>
+            </li>
+           <li class="waves-light btn-small">
+            	<a class="black-text text-darken-3" href="/resume">Resume</a>
+            </li>
+            <li>
+       <a onclick="M.toast({html: 'I am a toast'})" class="btn">Toast!</a>
+            </li>
+            <li class="waves-light btn-small">
+            	<a class="black-text text-darken-3" href="/contact">Contact</a>
+            </li>
+        </ul>
+      </div>
+      <div class="bordered col s12 m10">
+      	<h1 class="center purple-text text-darken-3">
+        	Hello World!				
+        </h1>
+        <div class="row">
+        
+        </div>
+
+     </div>
+      
+
+    </div>
+</body>
+
 </html>
